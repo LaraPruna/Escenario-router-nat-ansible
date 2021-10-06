@@ -1,2 +1,10 @@
-- name: "Cambiar la ruta por defecto a eth1"
-  shell: ip route add default via dev eth0
+- name: "Cambiar el bit de forwarding"
+  sysctl:
+    name: net.ipv4.ip_forward
+    value: 1
+    state: present
+    reload: yes
+  
+- name: "Cambiar la red del router"
+  template:
+    src: 
