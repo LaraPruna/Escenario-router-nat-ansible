@@ -1,0 +1,1 @@
+# Escenario-router-nat-ansible
