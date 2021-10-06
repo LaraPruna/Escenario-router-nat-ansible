@@ -1,0 +1,2 @@
+- name: "Cambiar la ruta por defecto a eth1"
+  shell: ip route add default via dev eth0
