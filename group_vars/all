@@ -1,8 +1,8 @@
 #router
 router_address: 10.0.0.1
 router_netmask: 255.255.255.0
-direccion_red: 10.0.0.0
-interfaz-salida: eth1
+direccion_red: 10.0.0.0/24
+interfaz_salida: eth1
 
 #cliente
 cliente_address: 10.0.0.2
